@@ -1,0 +1,61 @@
+.hero__content {
+  padding-top: 70px;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+
+.hero__title span {
+  color: #ff8300;
+}
+
+.hero__content p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #70309080;
+}
+
+.hero__btns button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.enroll__btn {
+  background: #ff8300;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.enroll__btn:hover {
+  background: white;
+  color: #ff8300;
+}
+.all__courses-btn {
+  background: transparent;
+  border: 1px solid #ff8300 !important;
+}
+
+.all__courses-btn a {
+  color: #ff8300;
+  text-decoration: none;
+}
+
+.hero__service p {
+  color: #5c008b;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.message__icon i {
+  padding: 5px;
+  background: #ff8300;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500 !important;
+}

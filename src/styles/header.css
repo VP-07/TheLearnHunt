@@ -1,0 +1,141 @@
+.header {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background-color: #5c008b;
+}
+
+.logo i {
+  color: #ff8300;
+}
+
+.logo h2 {
+  color: white;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ff8300;
+  text-decoration: none;
+}
+
+.active__menu {
+  color: #ff8300 !important;
+  text-decoration: none;
+}
+
+.cart__icon i,
+.user i,
+.mobile__menu i {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.cart__icon {
+  position: relative;
+}
+
+.cart__badge {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  background: #ff8300;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__menu {
+  font-weight: 600;
+  display: none;
+  text-decoration: none;
+}
+
+.header__shrink {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #5c008b;
+  z-index: 99999;
+  box-shadow: 5px 5px 15px -5px #fde4e4;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo h5 {
+    font-size: 0.8rem;
+    margin-top: -15px;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.425);
+    z-index: 99;
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #5c008b;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    line-height: 20px;
+  }
+
+  .menu a {
+    font-size: 1.1rem;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .cart__icon i,
+  .user i,
+  .mobile__menu i {
+    font-size: 1rem;
+  }
+
+  .show__menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .logo img {
+    margin-top: -70px !important;
+  }
+  .logo h5 {
+    margin-top: -55px;
+  }
+}
